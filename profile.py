@@ -98,4 +98,47 @@ st.markdown("<h2 style='text-align: center;'>EXPERIENCE</h2>", unsafe_allow_html
 col_exp1, col_exp2 = st.columns(2)
 
 with col_exp1:
-    
+    st.markdown("<h3 style='text-align: center;'>KPMG Global Services</h3>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: center;'>2022-Present</h5>", unsafe_allow_html=True)
+    st.markdown(
+            """
+            - Worked for one of the biggest retail sector firm, developing a spam classification bot with language translation, embedded images etc. blockers
+            - Creation of raw dataset by email extraction from client mailbox using Python scripts, building various ML/DL models, deploying over Azure DevOps pipeline to Azure Web App and integration in Logic apps workflow
+            - Utilizing Azure tools such as Azure ML, Cognitive Services for same purpose
+            - Comparing all solutions by performance, efficiency and security aspects
+            - Reduction of manual workload by 83%
+            """
+            )
+    st.markdown("####")
+    st.markdown("####")
+    st.markdown("---")
+    st.markdown(
+            """
+            - Worked in Pharmaceutical sales domain to create Analytics Insights dashboard displaying multi-item(multiple orgs/products) Sales Forecasting and Anomaly Detection on Sales data over past timeperiod
+            - Extraction of raw data from SAP HANA database, copying to Azure Storage via Azure Data Factory, importing to Azure ML Studio and building models using various methods such as Automated ML
+            - Consuming model in PowerBI to create dashboard and setting up refresh
+            - Setting up AutoML feature to retrain ML model at certain frequency
+            """
+            )
+
+with col_exp2:
+    st.markdown("<h3 style='text-align: center;'>Tata Consultancy Services(TCS)</h3>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center;'>2018-2022</h6>", unsafe_allow_html=True)
+    st.markdown(
+            """
+            - Worked for one of the biggest banks in Australia, developing a Document Image Processing and intelligent text extraction project, reducing human workload by completing real time work usually done in 3-5 business days to 30 minutes            - Creation of raw dataset by email extraction from client mailbox using Python scripts, building various ML/DL models, deploying over Azure DevOps pipeline to Azure Web App and integration in Logic apps workflow
+            - Classifying documents using state-of-the-art algorithms(88.89%), process and extract scanned/printed text using OCR, data and document comparison using fuzzy matching and regex algorithm to highlight key differences
+            - Extract information from structured/unstructured texts automatically, review the exceptions and recommend updates in the model for improved extraction
+            - Deploying model into client's docker platform and integration in UI
+            """
+            )
+    st.markdown("---")
+    st.markdown(
+            """
+            - Worked for one of the biggest banks in Australia, in Payments domain, utilizing skills such as Python, Oracle, Unix            
+            - Extracting huge chunks of data from Oracle database, analyzing them using Python Data Analysis tools, providing insights to clients
+            - Analyzing transactional processing data, implementing forecasting models to forecast weekly, monthly and quarterly expected loads, which helps reduce system downtime by 78%
+            - Trend Forecasting, Capacity report analysis, Dashboard preparation for monthly/quarterly processing and highlighting performance issues
+            - Developing cost/benefit analysis for business solutions
+            """
+            )
