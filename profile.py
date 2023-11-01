@@ -1,4 +1,6 @@
 import streamlit as st
+import base64
+import webbrowser
 
 st.set_page_config(layout='wide')
 
@@ -33,12 +35,14 @@ with col3:
         st.markdown("")
         st.image("linkedin.png", width=28)
         st.image("github.png", width=28)
+        st.image("huggingface.png", width=28)
         st.image("mail.png", width=28)
         st.image("phone.png", width=28)
     with collink2:
         st.markdown("")
         st.markdown("[LinkedIn](https://www.linkedin.com/in/prabin-dash-00a281137/)")
         st.markdown("[GitHub](https://github.com/Prabin9618)")
+        st.markdown("[Hugging Face](https://huggingface.co/prabin9618)")
         st.markdown("prabindash135@gmail.com")
         st.markdown("+91 9778841064")
 
@@ -144,3 +148,32 @@ with col_exp2:
             - Developing cost/benefit analysis for business solutions
             """
             )
+
+st.markdown("<h2>PERSONAL PROJECTS</h2>", unsafe_allow_html=True)
+
+col_pp1, col_pp2 = st.columns([0.29,0.71])
+
+with col_pp1:
+    # Project 1
+    file_ = open("gamerec.gif", "rb")
+    contents = file_.read()
+    data_url = base64.b64encode(contents).decode("utf-8")
+    file_.close()
+
+    style_image2 = """
+    width: auto;
+    max-width: 700px;
+    height: auto;
+    max-height: 800px;
+    display: block;
+    justify-content: center;
+    border-radius: 5%;
+    """
+    st.markdown(f'<img src="data:image/gif;base64,{data_url}" style="{style_image2}">',unsafe_allow_html=True)
+
+with col_pp2:
+    st.markdown("<h5>Game Recommender System</h5>", unsafe_allow_html=True)
+    st.markdown('Domain: Recreation')
+    st.markdown('Skills: NLP, ML, Streamlit')
+    if st.button("Try it out"):
+        webbrowser.open("https://huggingface.co/spaces/prabin9618/game-recommender")
