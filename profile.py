@@ -176,4 +176,4 @@ with col_pp2:
     st.markdown('Domain: Recreation')
     st.markdown('Skills: NLP, ML, Streamlit')
     if st.button("Try it out"):
-        webbrowser.open("https://huggingface.co/spaces/prabin9618/game-recommender")
+        webbrowser.open_new_tab("https://huggingface.co/spaces/prabin9618/game-recommender")
