@@ -175,5 +175,12 @@ with col_pp2:
     st.markdown("<h5>Game Recommender System</h5>", unsafe_allow_html=True)
     st.markdown('Domain: Recreation')
     st.markdown('Skills: NLP, ML, Streamlit')
-    if st.button("Try it out"):
-        webbrowser.open_new_tab("https://huggingface.co/spaces/prabin9618/game-recommender")
+    st.write(f'''
+    <a target="_blank" href="https://huggingface.co/spaces/prabin9618/game-recommender">
+        <button>
+            Try this out
+        </button>
+    </a>
+    ''',
+    unsafe_allow_html=True
+)
