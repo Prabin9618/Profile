@@ -38,3 +38,7 @@ div.st-emotion-cache-sx9guh {
 div.st-emotion-cache-j5r0tf {
   padding: 2% 0% 0% 0%;
 }
+
+div[data-testid="stExpander"] div[role="button"] p {
+  font-size: 2rem;
+}
