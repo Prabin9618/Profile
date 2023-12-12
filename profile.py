@@ -175,12 +175,18 @@ with col_pp2:
     st.markdown("<h5>Game Recommender System</h5>", unsafe_allow_html=True)
     st.markdown('Domain: Recreation')
     st.markdown('Skills: NLP, ML, Streamlit')
-    st.write(f'''
-    <a target="_blank" href="https://huggingface.co/spaces/prabin9618/game-recommender">
-        <button>
-            Try this out
-        </button>
-    </a>
-    ''',
-    unsafe_allow_html=True
-)
+    # st.write(f'''
+    # <a target="_blank" href="https://huggingface.co/spaces/prabin9618/game-recommender">
+    #     <button>
+    #         Try this out
+    #     </button>
+    # </a>
+    # ''',
+    # unsafe_allow_html=True
+    # )
+    URL_STRING = "https://huggingface.co/spaces/prabin9618/game-recommender"
+
+    st.markdown(
+        f'<a href="{URL_STRING}" style="display: inline-block; padding: 8px 10px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;">Try it out</a>',
+        unsafe_allow_html=True
+    )
