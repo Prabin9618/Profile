@@ -1,22 +1,10 @@
-/* Style columns */
-/* [data-testid="column"] {
-    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
-    border-radius: 15px;
-    padding: 5% 5% 5% 10%;
-}  */
-
-/* Style containers */
-/* [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {
-    border: 20px groove red;
-} */
-
-div.st-emotion-cache-12w0qpk {
-  background-color: rgb(252, 249, 173);
+/* div.st-emotion-cache-12w0qpk {
+  background-color: rgb(173, 236, 252);
   border: 0px solid #d3db00;
-  padding: 2% 2% 2% 2%; /*top right bottom left */
+  padding: 1% 2% 2% 2%; top right bottom left
   border-radius: 10px;
 }
-
+*/
 div.st-emotion-cache-1bzkvni {
   background-color: rgb(252, 249, 173);
   border: 0px solid #d3db00;
@@ -37,8 +25,4 @@ div.st-emotion-cache-sx9guh {
 
 div.st-emotion-cache-j5r0tf {
   padding: 2% 0% 0% 0%;
-}
-
-div[data-testid="stExpander"] div[role="button"] p {
-  font-size: 2rem;
 }
