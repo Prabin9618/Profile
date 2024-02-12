@@ -65,29 +65,35 @@ with tab_ex:
         st.markdown("<h5>2022-Present</h5>", unsafe_allow_html=True)
         st.markdown(
             """
-                - Working in developing a Generative AI POC, building systems using ChatGPT API
-                - Utilizing internal AI API and prompt engineering concepts to create a POC on document validation as per terms and conditions, building end-to-end system and using Streamlit for building U
+                - Type - Generative AI (POC)
+                - Domain - Business/Resourcing
+                - Skills Utilized - Prompt Engineering, OpenAI API, Streamlit
+                - Deployment - Streamlit UI
+                - Summary - Built Gen AI POCs via Prompt Engineering, Building systems using ChatGPT API and deployed in Streamlit UI
+                - Real-life impact - Business Teams(BAs, HRs etc.)
                 """
         )
         st.markdown("---")
         st.markdown(
             """
-                - Worked for one of the biggest retail sector firm, developing a spam classification bot
-                - Creation of raw dataset by email extraction from client mailbox using Python scripts
-                - Building various ML/DL models(Naive Bayes, XGBoost, LSTM) and creating Flask app
-                - Deploying Flask app over Azure DevOps pipeline to Azure Web App and integration in Logic apps workflow
-                - Implementing solutions to blockers such as non-English language emails using Language Translation, extracting text from embedded images using Image Captioning
-                - Utilizing Azure tools such as Azure Machine Learning, Cognitive Services for performance and speed improvement
-                - Implemented end-to-end project and deployed to Production including fixing issues during deployment, this solution reduces manual workload by 83%
+                - Type - Text Classification(Machine Learning/Deep Learning)
+                - Domain - Retail
+                - Skills Utilized - Machine Learning/Deep Learning, Azure Machine Learning, Azure DevOps, Azure Cognitive Services, Flask
+                - Deployment - Azure Web App, Azure Container Instances, Azure Cognitive Services
+                - Summary - Building a Spam Classification bot, utilizing various Azure Services for accuracy and efficiency, integration with primary pipeline in Azure Logic Apps and deploying to Production
+                - Blockers - Implementing solutions to blockers such as non-English language emails using Language Translation, extracting text from embedded images using Image Captioning
+                - Real-life impact - Reducing manual workload by 83%
                 """
         )
         st.markdown("---")
         st.markdown(
             """
-                - Worked in Pharmaceutical sales domain to create Analytics Insights dashboard displaying multi-item(multiple orgs/products) Sales Forecasting and Anomaly Detection on Sales data over past timeperiod
-                - Extraction of raw data from SAP HANA database, copying to Azure Storage via Azure Data Factory, importing to Azure ML Studio and building models using various methods such as Automated ML
-                - Consuming model in PowerBI to create dashboard and setting up refresh
-                - Setting up AutoML feature to retrain ML model at certain frequency
+                - Type - Time Series Forecasting/Anomaly Detection(Machine Learning/Deep Learning)
+                - Domain - Pharmaceutical sales
+                - Skills Utilized - Machine Learning/Deep Learning, Azure Machine Learning, Azure Data Factory, PowerBI
+                - Deployment - Azure Container Instances, models consumed in PowerBI
+                - Summary - Implementing a multi-item/multi-org sales forecasting model for SAP, building an Anomaly detection model for detecting anomalous sales records
+                - Real-life impact - Analytics Insights Dashboard
                 """
         )
 
@@ -95,22 +101,23 @@ with tab_ex:
         st.markdown("<h5>2018-2022</h5>", unsafe_allow_html=True)
         st.markdown(
             """
-                - Worked for one of the biggest banks in Australia, developing a Document Image Processing and intelligent text extraction project, reducing human workload by completing real time work usually done in 3-5 business days to 30 minutes
-                - Classifying documents using state-of-the-art Image Classification algorithms like EfficientNet(88.89%), process and extract scanned/printed text using OCR
-                - Data and document comparison using fuzzy matching and regex algorithm to highlight key differences
-                - Extract text from scanned/searchable PDFs and images using python libraries
-                - Extract information from structured/unstructured texts automatically, review the exceptions and recommend updates in the model for improved extraction
-                - Deploying model into client's docker platform and integration in UI
+                - Type - Document Image Processing and text extraction(Computer Vision)
+                - Domain - Banking and Financial Services(BFSI)
+                - Skills Utilized - Deep Learning(CNN, SOTA), OCR, PDF processing
+                - Deployment - Docker (Client Environment)
+                - Summary - Classifying documents using state-of-the-art Image Classification algorithms like EfficientNet(88.89%), process and extract scanned/printed text using OCR, Data and document comparison using fuzzy matching and regex algorithm to highlight key differences, Extract text from scanned/searchable PDFs and images using python libraries, Extract information from structured/unstructured texts automatically, review the exceptions and recommend updates in the model for improved extraction
+                - Real-life impact - Reducing human workload by completing real time work usually done in 3-5 business days to 30 minutes
                 """
         )
         st.markdown("---")
         st.markdown(
             """
-                - Worked for one of the biggest banks in Australia, in Payments domain, utilizing skills such as Python, Oracle, Unix            
-                - Extracting huge chunks of data from Oracle database, analyzing them using Python Data Analysis tools, providing insights to clients
-                - Analyzing transactional processing data, implementing forecasting models to forecast weekly, monthly and quarterly expected loads, which helps reduce system downtime by 78%
-                - Trend Forecasting, Capacity report analysis, Dashboard preparation for monthly/quarterly processing and highlighting performance issues
-                - Developing cost/benefit analysis for business solutions
+                - Type - Time Series Forecasting(Machine Learning)
+                - Domain - Banking and Financial Services(BFSI)
+                - Skills Utilized - Python, Oracle Database, Unix
+                - Deployment - Analytics Dashboard
+                - Summary - Extracting huge chunks of data from Oracle database, analyzing them using Python Data Analysis tools, providing insights to clients, Analyzing transactional processing data, implementing forecasting models to forecast weekly, monthly and quarterly expected loads, which helps reduce system downtime by 78%, Trend Forecasting, Capacity report analysis, Dashboard preparation for monthly/quarterly processing and highlighting performance issues
+                - Real-life impact - Analytics Insights, Internal Teams
                 """
         )
 
