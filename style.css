@@ -1,28 +1,16 @@
-/* div.st-emotion-cache-12w0qpk {
-  background-color: rgb(173, 236, 252);
-  border: 0px solid #d3db00;
-  padding: 1% 2% 2% 2%; top right bottom left
-  border-radius: 10px;
-}
-*/
 div.st-emotion-cache-1bzkvni {
-  background-color: rgb(252, 249, 173);
-  border: 0px solid #d3db00;
+  width: calc(30% - 1rem);
+  flex: 1 1 calc(30% - 1rem);
+  background-color: antiquewhite;
+  border: 0px solid #DDD1C1;
   padding: 2% 2% 2% 2%;
   border-radius: 10px;
 }
 
-div.st-emotion-cache-keje6w {
-  background-color: rgb(252, 249, 173);
-  border: 0px solid #d3db00;
-  padding: 2% 2% 2% 2%;
-  border-radius: 10px;
+div.st-emotion-cache-17b17hr.e1nzilvr5{
+  line-height: 1.45;
 }
 
-div.st-emotion-cache-sx9guh {
-  padding: 0% 2% 2% 10%;
-}
-
-div.st-emotion-cache-j5r0tf {
-  padding: 2% 0% 0% 0%;
+div.st-aq{
+  gap: 4rem;
 }
