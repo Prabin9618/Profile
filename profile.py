@@ -60,17 +60,17 @@ with col2:
     with tab_about:
         intro1, intro2 = st.columns(2)
         with intro1:
-            annotated_text(annotation("Hi! I am","","#ffffff",font_family="sans-serif",font_size="30px"))
-            annotated_text(annotation("Prabin Dash","","#ffffff",font_family="sans-serif",font_size="30px"))
+            annotated_text(annotation("Hi! I am","","#ffffff",font_family="sans-serif",font_size="25"))
+            annotated_text(annotation("Prabin Dash","","#ffffff",font_family="sans-serif",font_size="25px"))
         with intro2:
             st.markdown("")
-            annotated_text(annotation("Data Scientist","","#0099ff","#ffffff",font_family="sans-serif",font_size="50px"))
+            annotated_text(annotation("Data Scientist","","#0099ff","#ffffff",font_family="sans-serif",font_size="40px"))
         
         st.markdown("")
-        annotated_text(annotation('''I am a technology geek interested in exploring ML and AI domain. With over 5 years into Data Science 
+        st.markdown('''I am a technology geek interested in exploring ML and AI domain. With over 5 years into Data Science 
                             and more than 3 years working in Cloud, I am interested in exploring fields such as Natural Language Processing 
                             and Generative AI. I have extensive hands-on experience in end-to-end implementation of projects as well as 
-                            deploying them over Docker or Cloud platforms''',"","#ffffff",font_family="sans-serif",font_size="20px"))
+                            deploying them over Docker or Cloud platforms''')
     with tab_ex:
         with st.expander("KPMG Global Services"):
             st.markdown("<h5>2022-Present</h5>", unsafe_allow_html=True)
